@@ -26,7 +26,7 @@ export default function Hero() {
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
             <span className="inline-block py-1 px-3 rounded-full bg-secondary/10 text-secondary-foreground font-semibold text-sm mb-6 border border-secondary/20 shadow-sm">
-              <span className="inline-block w-2 h-2 rounded-full bg-secondary mr-2 (dir==='rtl'? 'ml-2 mr-0' : '') animate-pulse"></span>
+              <span className={`inline-block w-2 h-2 rounded-full bg-secondary ${dir === 'rtl' ? 'ml-2' : 'mr-2'} animate-pulse`}></span>
               {t('hero.socialProof')}
             </span>
           </motion.div>
