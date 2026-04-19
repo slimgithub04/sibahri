@@ -49,7 +49,7 @@ export default function Navbar() {
           <a href="#home" className="flex items-center gap-3 group shrink-0">
             <div className="bg-white p-1 rounded-xl group-hover:scale-110 group-hover:rotate-2 transition-all duration-500 shadow-md border border-border/10">
               <img 
-                src="/logo.png" 
+                src="https://i.postimg.cc/YCy0t8nJ/Gemini-Generated-Image-4tck3u4tck3u4tck.png" 
                 alt="SIBA7RI Logo" 
                 className="w-10 h-10 object-contain rounded-lg"
                 referrerPolicy="no-referrer"
