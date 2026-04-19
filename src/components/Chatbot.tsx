@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { useLanguage } from '../lib/i18n';
 import { MessageSquare, X, Send, Mic, MicOff, Loader2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
+import ReactMarkdown from 'react-markdown';
 
 type Message = {
   id: string;
@@ -174,7 +175,9 @@ export default function Chatbot() {
                       ? 'bg-secondary text-white rounded-tr-sm' 
                       : 'bg-muted text-foreground rounded-tl-sm border border-border/50'
                   }`}>
-                    {msg.text}
+                    <div className="markdown-body">
+                      <ReactMarkdown>{msg.text}</ReactMarkdown>
+                    </div>
                   </div>
                 </div>
               ))}

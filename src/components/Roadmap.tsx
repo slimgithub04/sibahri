@@ -33,7 +33,7 @@ export default function Roadmap() {
       y: 0,
       transition: { 
         duration: 0.8, 
-        ease: [0.16, 1, 0.3, 1] 
+        ease: [0.16, 1, 0.3, 1] as any
       }
     }
   };
@@ -126,7 +126,7 @@ export default function Roadmap() {
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
+          transition={{ duration: 0.8, delay: 0.6, ease: [0.16, 1, 0.3, 1] as any }}
           className="mt-20 lg:mt-40 max-w-4xl mx-auto glass rounded-[32px] p-8 md:p-14 relative overflow-hidden text-center z-20 shadow-2xl"
         >
           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-accent to-transparent"></div>

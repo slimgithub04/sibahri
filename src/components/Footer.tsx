@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="flex items-center gap-3 text-white font-bold group cursor-default">
              <div className="p-1 rounded-xl group-hover:scale-105 transition-transform duration-300 bg-white shadow-lg">
                <img 
-                src="/Gemini_Generated_Image_4tck3u4tck3u4tck.png" 
+                src="/logo.png" 
                 alt="SIBA7RI Logo" 
                 className="w-12 h-12 md:w-16 md:h-16 object-contain rounded-xl"
                 referrerPolicy="no-referrer"

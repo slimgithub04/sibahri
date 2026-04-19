@@ -22,7 +22,7 @@ export default function FinalCTA() {
         >
           <div className="bg-white p-4 rounded-3xl inline-block mb-8 shadow-2xl">
             <img 
-              src="/Gemini_Generated_Image_4tck3u4tck3u4tck.png" 
+              src="/logo.png" 
               alt="Logo" 
               className="w-24 h-24 object-contain"
               referrerPolicy="no-referrer"

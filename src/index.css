@@ -157,4 +157,20 @@
             transparent 48px
         );
     }
+
+    .markdown-body {
+        @apply space-y-2;
+    }
+    .markdown-body ul {
+        @apply list-disc list-inside space-y-1;
+    }
+    .markdown-body ol {
+        @apply list-decimal list-inside space-y-1;
+    }
+    .markdown-body strong {
+        @apply font-bold text-inherit;
+    }
+    .markdown-body p {
+        @apply mb-2 last:mb-0;
+    }
 }

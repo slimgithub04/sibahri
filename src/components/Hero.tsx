@@ -23,7 +23,7 @@ export default function Hero() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] as any }}
           >
             <span className="inline-block py-1 px-3 rounded-full bg-secondary/10 text-secondary-foreground font-semibold text-sm mb-6 border border-secondary/20 shadow-sm">
               <span className={`inline-block w-2 h-2 rounded-full bg-secondary ${dir === 'rtl' ? 'ml-2' : 'mr-2'} animate-pulse`}></span>
@@ -35,7 +35,7 @@ export default function Hero() {
             className="text-4xl md:text-6xl lg:text-7xl font-black tracking-tight mb-6 leading-tight"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
+            transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] as any }}
           >
             {t('hero.title')}
           </motion.h1>
@@ -44,7 +44,7 @@ export default function Hero() {
             className="text-xl md:text-2xl text-foreground/80 mb-8 max-w-3xl mx-auto leading-relaxed font-medium"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+            transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] as any }}
           >
             {t('hero.subtitle')}
           </motion.p>
@@ -94,7 +94,7 @@ export default function Hero() {
           className="mt-16 sm:mt-24 w-full h-[450px] max-w-6xl mx-auto rounded-[32px] overflow-hidden bg-card relative shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] border border-white/20"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
+          transition={{ duration: 1, delay: 0.4, ease: [0.16, 1, 0.3, 1] as any }}
         >
           {/* Map layout pattern from Design HTML */}
           <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(circle_at_70%_50%,_#E0F2F1_0%,_#B2DFDB_100%)]">
